@@ -1059,10 +1059,10 @@ class phpQueryObject
 							'$prevs = pq($node)->prevAll()->size();
 							$index = 1+$prevs;
 							$b = mb_strlen($param) > 3
-								? $param[3]
+								? $param{3}
 								: 0;
-							$a = $param[0];
-							if ($b && $param[2] == "-")
+							$a = $param{0};
+							if ($b && $param{2} == "-")
 								$b = -$b;
 							if ($a > 0) {
 								return ($index-$b)%$a == 0

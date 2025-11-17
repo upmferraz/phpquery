@@ -33,7 +33,7 @@ class DOMEvent {
 	 * @var unknown_type
 	 * @link http://developer.mozilla.org/en/DOM/event.detail
 	 */
-	public $detail;	// ???
+	public $detail; 		// ???
 	/**
 	 * Used to indicate which phase of the event flow is currently being evaluated.
 	 *
@@ -42,7 +42,7 @@ class DOMEvent {
 	 * @var unknown_type
 	 * @link http://developer.mozilla.org/en/DOM/event.eventPhase
 	 */
-	public $eventPhase;	// ???
+	public $eventPhase; 	// ???
 	/**
 	 * The explicit original target of the event (Mozilla-specific).
 	 *
@@ -58,7 +58,7 @@ class DOMEvent {
 	 *
 	 * @var unknown_type
 	 */
-	public $originalTarget;	// moz only
+	public $originalTarget; 	// moz only
 	/**
 	 * Identifies a secondary target for the event.
 	 *
